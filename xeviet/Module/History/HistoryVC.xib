@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HistoryVC" customModule="Xe_Việt" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="N6s-2Y-uGf" id="b81-so-sHl"/>
+                <outlet property="view" destination="1Hh-eU-TEN" id="w1O-ho-Elt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1Hh-eU-TEN">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="2rb-kw-lGm">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="N6s-2Y-uGf">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" red="0.45882352939999999" green="0.83529411760000005" blue="0.58431372550000005" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="J8D-t7-13j"/>
+            <color key="backgroundColor" red="0.45882352939999999" green="0.83529411760000005" blue="0.58431372550000005" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" red="0.45882352939999999" green="0.83529411760000005" blue="0.58431372550000005" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2rb-kw-lGm" firstAttribute="leading" secondItem="1Hh-eU-TEN" secondAttribute="leading" id="5Jj-cv-Buo"/>
+                <constraint firstItem="J8D-t7-13j" firstAttribute="bottom" secondItem="N6s-2Y-uGf" secondAttribute="bottom" id="IwQ-l3-sks"/>
+                <constraint firstItem="N6s-2Y-uGf" firstAttribute="top" secondItem="J8D-t7-13j" secondAttribute="top" id="Pvh-cb-OFU"/>
+                <constraint firstAttribute="bottom" secondItem="2rb-kw-lGm" secondAttribute="bottom" id="X0n-9A-XuR"/>
+                <constraint firstItem="N6s-2Y-uGf" firstAttribute="leading" secondItem="1Hh-eU-TEN" secondAttribute="leading" id="bDL-WD-PxF"/>
+                <constraint firstAttribute="trailing" secondItem="2rb-kw-lGm" secondAttribute="trailing" id="cBE-UG-qah"/>
+                <constraint firstAttribute="trailing" secondItem="N6s-2Y-uGf" secondAttribute="trailing" id="erQ-hR-PTF"/>
+                <constraint firstItem="2rb-kw-lGm" firstAttribute="top" secondItem="1Hh-eU-TEN" secondAttribute="top" id="sww-mr-dUg"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="789.50892857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="375" height="1330"/>
+    </resources>
+</document>

@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  Xe TQT
+
+  Created by eagle on 5/5/20.
+  Copyright © 2020 eagle. All rights reserved.
+*/
+"4_SEAT_CAR" = "4 seater car";
+"7_SEAT_CAR" = "7-seat-car";
+"16_SEAT_CAR" = "16-seat-car";
+"29_SEAT_CAR" = "29-seat-car";
+"39_SEAT_CAR" = "39-seat-car";
+"45_SEAT_CAR" = "45-seat-car";
+"YOUR_PROMOTIONAL_CODE" = "Your promotional code";
+"STARTING_POINT" = "Starting point";
+"END_POINT" = "End point";
+"CHOOSE_STARTING_POINT" = "Choose starting point";
+"I_WAN_TO_GO_TO" = "I want to go to ...";
+"CHOOSE_VEHICLE_TYPE" = "Choose vehicle type";
+"PAY_TYPE" = "Pay type";
+"PROMOTION_CODE" = "Promotion code";
+
+
+/// intercity verhicles
+"ORDER_INTERCITY_VEHICLES" = "Order Intercity Vehicles";
+"STEP" = "Step";
+"CHOOSE_STARTING_POSITION" = "Choose the starting position";
+"CHOOSE_THE_ROUTE_YOU_WANT_TO_GO" = "Choose the route you want to go";
+"CHOOSE_THE_RIDE_YOU_WANT_TO_GO" = "Choose the ride you want to go";

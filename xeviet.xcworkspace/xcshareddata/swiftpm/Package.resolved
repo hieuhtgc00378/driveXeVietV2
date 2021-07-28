@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CountryPickerView",
+        "repositoryURL": "https://github.com/kizitonwose/CountryPickerView.git",
+        "state": {
+          "branch": null,
+          "revision": "f4f38bd73a9c1bce46ca09eeb9e0f80753597959",
+          "version": "3.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

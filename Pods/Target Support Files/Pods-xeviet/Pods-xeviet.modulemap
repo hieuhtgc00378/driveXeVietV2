@@ -1,0 +1,6 @@
+framework module Pods_xeviet {
+  umbrella header "Pods-xeviet-umbrella.h"
+
+  export *
+  module * { export * }
+}

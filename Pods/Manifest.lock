@@ -1,0 +1,299 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.4.2)
+  - AFDateHelper (4.3.0)
+  - Alamofire (5.0.0-rc.3)
+  - CountryPickerView (3.2.0)
+  - DateTimePicker (2.4.1)
+  - Device (3.2.1)
+  - Differentiator (4.0.1)
+  - DropDown (2.3.13)
+  - ESPullToRefresh (2.9.2)
+  - Firebase/Auth (6.24.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.5.3)
+  - Firebase/CoreOnly (6.24.0):
+    - FirebaseCore (= 6.7.0)
+  - FirebaseAuth (6.5.3):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.1.0)
+  - FirebaseCore (6.7.0):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.3.0):
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleDataTransportCCTSupport (~> 3.1)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 1.30905.0)
+  - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - GoogleDataTransport (6.1.0)
+  - GoogleDataTransportCCTSupport (3.1.0):
+    - GoogleDataTransport (~> 6.1)
+    - nanopb (~> 1.30905.0)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.6.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.6.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.6.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (6.6.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.6.0)"
+  - GoogleUtilities/Reachability (6.6.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.4.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - JTAppleCalendar (7.1.8)
+  - KafkaRefresh (1.4.8):
+    - KafkaRefresh/Category (= 1.4.8)
+    - KafkaRefresh/Configuration (= 1.4.8)
+    - KafkaRefresh/Core (= 1.4.8)
+    - KafkaRefresh/Default (= 1.4.8)
+    - KafkaRefresh/Style (= 1.4.8)
+    - KafkaRefresh/UIKit (= 1.4.8)
+  - KafkaRefresh/Category (1.4.8)
+  - KafkaRefresh/Configuration (1.4.8):
+    - KafkaRefresh/UIKit/FootKit
+    - KafkaRefresh/UIKit/HeadKit
+  - KafkaRefresh/Core (1.4.8):
+    - KafkaRefresh/Category
+  - KafkaRefresh/Default (1.4.8):
+    - KafkaRefresh/Style
+  - KafkaRefresh/Style (1.4.8)
+  - KafkaRefresh/UIKit (1.4.8):
+    - KafkaRefresh/UIKit/FootKit (= 1.4.8)
+    - KafkaRefresh/UIKit/HeadKit (= 1.4.8)
+    - KafkaRefresh/UIKit/LayerKit (= 1.4.8)
+  - KafkaRefresh/UIKit/FootKit (1.4.8):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/HeadKit (1.4.8):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/LayerKit (1.4.8):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Default
+  - KeychainAccess (3.2.0)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - Localize-Swift (3.1.0)
+  - MarqueeLabel (4.0.2)
+  - MBProgressHUD (1.2.0)
+  - MediaBrowser (2.3.0):
+    - SDWebImage
+    - UICircularProgressRing
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - ObjectMapper (3.5.2)
+  - OneSignal (2.13.1)
+  - PromisesObjC (1.2.8)
+  - RSKPlaceholderTextView (6.0.3)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - SDWebImage (5.7.3):
+    - SDWebImage/Core (= 5.7.3)
+  - SDWebImage/Core (5.7.3)
+  - SideMenu (6.4.8)
+  - SnapKit (5.0.1)
+  - SwiftDate (6.1.0)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+  - SwiftyJSON (5.0.0)
+  - TLPhotoPicker (2.0.11)
+  - UICircularProgressRing (6.5.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AFDateHelper
+  - Alamofire (= 5.0.0-rc.3)
+  - CountryPickerView
+  - DateTimePicker
+  - Device (~> 3.2.1)
+  - DropDown
+  - ESPullToRefresh
+  - Firebase/Auth
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - JTAppleCalendar (~> 7.1)
+  - KafkaRefresh
+  - KeychainAccess (= 3.2.0)
+  - Kingfisher
+  - Localize-Swift
+  - MarqueeLabel
+  - MBProgressHUD
+  - MediaBrowser
+  - NVActivityIndicatorView
+  - ObjectMapper (~> 3.4)
+  - OneSignal (< 3.0, >= 2.11.2)
+  - RSKPlaceholderTextView
+  - RxCocoa
+  - RxDataSources (~> 4.0)
+  - RxGesture
+  - RxSwift
+  - RxSwiftExt
+  - SideMenu (~> 6.0)
+  - SnapKit
+  - SwiftDate
+  - SwiftMessages
+  - SwiftyJSON
+  - TLPhotoPicker
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - AFDateHelper
+    - Alamofire
+    - CountryPickerView
+    - DateTimePicker
+    - Device
+    - Differentiator
+    - DropDown
+    - ESPullToRefresh
+    - Firebase
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - JTAppleCalendar
+    - KafkaRefresh
+    - KeychainAccess
+    - Kingfisher
+    - Localize-Swift
+    - MarqueeLabel
+    - MBProgressHUD
+    - MediaBrowser
+    - nanopb
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - OneSignal
+    - PromisesObjC
+    - RSKPlaceholderTextView
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SDWebImage
+    - SideMenu
+    - SnapKit
+    - SwiftDate
+    - SwiftMessages
+    - SwiftyJSON
+    - TLPhotoPicker
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 5b62e07b00bd970509cf5ece99cb7447eae5dd0d
+  AFDateHelper: b769c07d3d4784ee9a74633285304261bb27dc52
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  CountryPickerView: 9b093bfffb4b06a69ba6185a798cadbf863720e7
+  DateTimePicker: 997176ea28954f3c18817b9565a53b28ee4400b8
+  Device: 0738862dd8a30856b4bd9e21cb9b728873d21392
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  ESPullToRefresh: efed00d52597065e9a84e1e52fa444fdb1a1dee0
+  Firebase: b28e55c60efd98963cd9011fe2fac5a10c2ba124
+  FirebaseAuth: 7047aec89c0b17ecd924a550c853f0c27ac6015e
+  FirebaseAuthInterop: a0f37ae05833af156e72028f648d313f7e7592e9
+  FirebaseCore: e610482f64097b0e9f056cd97bc6b33dfabcbb6a
+  FirebaseCoreDiagnostics: 4a773a47bd83bbd5a9b1ccf1ce7caa8b2d535e67
+  FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  GoogleDataTransport: f6f8eba931df03ebd2232ff4645aa85f8f47b5ab
+  GoogleDataTransportCCTSupport: d70a561f7d236af529fee598835caad5e25f6d3d
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  JTAppleCalendar: b7fb40852f5f319fe55c8ec3861f1de0edc99cc8
+  KafkaRefresh: aaae4ff23197f2ef38b6b22ca320740beac4bbb4
+  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  Localize-Swift: 4bed4f0ccac8be2ec3517ee359da80ba2adb0fae
+  MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MediaBrowser: 6dc19b2d900db201083f2cdfb8bd650be7382bc3
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  OneSignal: fa98eaa90372bb367b6a4a1c1622ffb9832c7600
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  RSKPlaceholderTextView: fc8c8932546298ec9d5e5572284aa42adb87b066
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  SDWebImage: 97351f6582ceca541ea294ba66a1fcb342a331c2
+  SideMenu: 4a891be552d30bb6fa87ad404d62e485f8450c34
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TLPhotoPicker: a5c339732b8326bb16cbb4e00ed01a86f2bfbbb3
+  UICircularProgressRing: e6852e8f88e296cbbbe2720cccb55241acda6708
+
+PODFILE CHECKSUM: 9c561fff93a209aa14f22cdad356694faab453d4
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,106 @@
+/* 
+  Localizable.strings
+  Xe TQT
+
+  Created by eagle on 5/5/20.
+  Copyright © 2020 eagle. All rights reserved.
+*/
+
+"BOOKING_NOW" = "Gọi xe nhanh";
+"MAP_LOADING" = "Đang tải bản đồ";
+"LOGIN_LOADING" = "Đang đăng nhập";
+"4_SEAT_CAR" = "Xe 4 chỗ";
+"7_SEAT_CAR" = "Xe 7 chỗ";
+"16_SEAT_CAR" = "Xe 16 chỗ";
+"29_SEAT_CAR" = "Xe 29 chỗ";
+"35_SEAT_CAR" = "Xe 35 chỗ";
+"45_SEAT_CAR" = "Xe 45 chỗ";
+"YOUR_PROMOTIONAL_CODE" = "Mã khuyến mại của bạn";
+
+
+/// intercity verhicles
+"ORDER_INTERCITY_VEHICLES" = "Chọn loại xe";
+"STEP" = "Bước";
+"CHOOSE_STARTING_POSITION" = "Chọn điểm xuất phát";
+"CHOOSE_THE_ROUTE_YOU_WANT_TO_GO" = "Chọn tuyến đường bạn muốn đi";
+"CHOOSE_THE_RIDE_YOU_WANT_TO_GO" = "Chọn chuyến xe bạn muốn đi";
+"LB_BOOKING_STEP1_AIRPORT" = "Bước 1: Chọn sân bay bạn muốn đi";
+"LB_BOOKING_STEP1_AIRPORT_BACK" = "Bước 1: Chọn sân bay lái xe sẽ đón bạn";
+"TO_PLACE" = "Điểm đến";
+"FROM_PLACE" = "Điểm bắt đầu (địa chỉ đón bạn)";
+"STARTING_POINT" = "Đi từ";
+"END_POINT" = "Đến";
+"BOOK_AIRPORT" = "Đặt xe sân bay";
+"BOOKING_AIRPORT" = "Đặt xe đi sân bay";
+"BOOKING_AIRPORT_BACK" = "Đặt xe từ sân bay";
+"TO_PLACE_BACK" = "Điểm xuất phát";
+"FROM_PLACE_BACK" = "Chọn điểm đến";
+"CHOSE_PLACE" = "Chọn địa chỉ...";
+
+
+"COPY_SUCCESS" = "Sao chép thành công";
+"TITLE_USER_INFO" = "Thông tin tài khoản";
+"Done" = "Xong";
+"Cancel" = "Huỷ";
+"Today" = "Hiện tại";
+
+"BTN_SAVE_TITTLE" = "Lưu";
+"BTN_CHANGE_TITLE" = "Thay đổi";
+"UPDATE_PROFILE_LOADING" = "Đang cập nhật thông tin tài khoản";
+"UPDATE_PROFILE_SUCCESS" = "Cập nhật thành công";
+"PAY_IN_DEVELOPMENT" = "Tính năng sắp ra mắt...";
+"EMPTY_USER_POSITION" = "Chưa chọn điểm đón";
+"EMPTY_END_POSITION" = "Chưa chọn điểm đến";
+"EMPTY_PICKED_DATE" = "Chưa chọn ngày";
+"EMPTY_PICKED_HOUR" = "Chưa chọn giờ";
+"EMPTY_PASSENGER_NAME" = "Chưa nhập tên hành khách";
+"EMPTY_PASSENGER_PHONE" = "Chưa nhập số điện thoại hành khách";
+
+
+"GET_PRICE_LOADING" = "Đang tính phí...";
+"PICK_END_PLACE" = "Chọn điểm đến";
+"PICK_BEGIN_PLACE" = "Chọn điểm xuất phát";
+
+"OLDPRICE" = "Giá cũ";
+"PRICE" = "Giá mới";
+"BOOKING_PROVINCE" = "Đặt xe liên tỉnh";
+"EMPTY_USER_POSITION_BACK" = "Chưa chọn điểm đến";
+
+"HISTORY" = "Lịch sử khách hàng";
+"LOADING_GET_LIST_BOOKING" = "Đang tải dữ liệu";
+
+"Pull to refresh" = "";
+"Loading more" = "Tải thêm";
+"Loading..." = "Đang tải";
+"BOOKING_SUCCESS" = "Bạn đã đặt xe thành công. Lái xe hoặc nhân viên Xe Việt sẽ gọi điện xác nhận trong chốc lát. Xin cảm ơn!";
+"LOADING_BOOKING" = "Đang đặt xe...";
+
+"Hello" = "Xin chào";
+"LOADING_GET_LIST_COUPON" = "Tải danh sách khuyến mãi...";
+"TITLE_COUPON" = "Danh sách khuyến mãi";
+
+
+// reason cancel
+"REASON_FOR_CANCEL" = "Nhập lý do huỷ chuyến";
+
+// driver info
+"DRIVER_INFO" = "Thông tin lái xe";
+"CANCEL_BOOKING" = "Huỷ chuyến";
+"DRIVER_TOTAL" = "Tổng tiền";
+"DRIVER_START_POINT" = "Điểm xuất phát";
+"DRIVER_END_POINT" = "Điểm đến";
+"DRIVER_LABEL" = "Thông tin xe";
+"LICENSE_PLATE" = "Biển số";
+"CALL_DRIVER" = "Gọi";
+
+
+
+// booking
+"BOOKING" = "Đặt xe";
+"ARE_YOU_READY_BOOKING" = "Bạn có chắc muốn đặt xe?";
+"CHOOSE_VEHICLE_TYPE" = "Chọn loại xe";
+"PAY_TYPE" = "Phương thức thanh toán";
+"PROMOTION_CODE" = "Mã giảm giá";
+"VEHICLE_TYPE" = "Loại xe";
+"LOOKING_TO_DRIVE" = "Đang tìm lái xe";
+

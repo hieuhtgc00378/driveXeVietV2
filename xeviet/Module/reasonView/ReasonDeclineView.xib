@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReasonDeclineView" customModule="Xe_Việt" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="yaf-nE-iQb" id="lun-OD-lLj"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="0I1-8N-Evp"/>
+                <outlet property="declineButton" destination="Ixa-DZ-kXq" id="N7E-bS-uaU"/>
+                <outlet property="reasonTextView" destination="5zX-hL-HGs" id="qS9-RB-Wvo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="494"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SbD-s5-NOe" customClass="PView" customModule="Xe_Việt" customModuleProvider="target">
+                    <rect key="frame" x="30" y="97" width="354" height="300"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="IHV-ac-3WP" customClass="PImageView" customModule="Xe_Việt" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="354" height="300"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaf-nE-iQb">
+                            <rect key="frame" x="296" y="8" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="0zF-5g-4e7"/>
+                                <constraint firstAttribute="height" constant="50" id="Ps3-nI-O3G"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                            <state key="normal" image="ic_close">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Huỷ chuyến" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="746-Ff-xhx">
+                            <rect key="frame" x="126.5" y="22.5" width="101" height="21"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5zX-hL-HGs">
+                            <rect key="frame" x="20" y="73" width="314" height="150"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="zqO-7Q-fTS"/>
+                            </constraints>
+                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ixa-DZ-kXq" customClass="PButton" customModule="Xe_Việt" customModuleProvider="target">
+                            <rect key="frame" x="50" y="245" width="254" height="40"/>
+                            <color key="backgroundColor" red="0.94005918499999996" green="0.0" blue="0.1839422882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="kmD-41-n1D"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                            <state key="normal" title="Huỷ chuyến"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="cornerCircle" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Ixa-DZ-kXq" firstAttribute="leading" secondItem="SbD-s5-NOe" secondAttribute="leading" constant="50" id="7eS-7A-ucT"/>
+                        <constraint firstAttribute="trailing" secondItem="IHV-ac-3WP" secondAttribute="trailing" id="81R-UM-BDv"/>
+                        <constraint firstItem="746-Ff-xhx" firstAttribute="centerX" secondItem="SbD-s5-NOe" secondAttribute="centerX" id="8f0-La-rG1"/>
+                        <constraint firstItem="IHV-ac-3WP" firstAttribute="leading" secondItem="SbD-s5-NOe" secondAttribute="leading" id="AmX-Ut-LN6"/>
+                        <constraint firstAttribute="bottom" secondItem="IHV-ac-3WP" secondAttribute="bottom" id="Di9-YV-A9p"/>
+                        <constraint firstItem="IHV-ac-3WP" firstAttribute="top" secondItem="SbD-s5-NOe" secondAttribute="top" id="Fu0-ly-EgU"/>
+                        <constraint firstItem="yaf-nE-iQb" firstAttribute="top" secondItem="SbD-s5-NOe" secondAttribute="top" constant="8" id="Ljq-xH-wMe"/>
+                        <constraint firstAttribute="trailing" secondItem="Ixa-DZ-kXq" secondAttribute="trailing" constant="50" id="TpB-gH-0nZ"/>
+                        <constraint firstAttribute="trailing" secondItem="5zX-hL-HGs" secondAttribute="trailing" constant="20" id="VG5-eD-Wdt"/>
+                        <constraint firstItem="5zX-hL-HGs" firstAttribute="leading" secondItem="SbD-s5-NOe" secondAttribute="leading" constant="20" id="XKD-Uc-1ed"/>
+                        <constraint firstItem="5zX-hL-HGs" firstAttribute="top" secondItem="yaf-nE-iQb" secondAttribute="bottom" constant="15" id="bTH-UQ-pBN"/>
+                        <constraint firstItem="yaf-nE-iQb" firstAttribute="centerY" secondItem="746-Ff-xhx" secondAttribute="centerY" id="jfO-u0-cSD"/>
+                        <constraint firstAttribute="height" constant="300" id="nAi-H2-I0y"/>
+                        <constraint firstAttribute="trailing" secondItem="yaf-nE-iQb" secondAttribute="trailing" constant="8" id="sSC-7W-OSb"/>
+                        <constraint firstAttribute="bottom" secondItem="Ixa-DZ-kXq" secondAttribute="bottom" constant="15" id="ynz-nJ-Uae"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="SbD-s5-NOe" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" id="0xs-Zn-4UV"/>
+                <constraint firstItem="SbD-s5-NOe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="7ZH-zm-aLT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SbD-s5-NOe" secondAttribute="trailing" constant="30" id="wwb-2r-jNu"/>
+                <constraint firstItem="SbD-s5-NOe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xK6-6J-DXP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-396" y="149"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="375" height="1330"/>
+        <image name="ic_close" width="25" height="25"/>
+    </resources>
+</document>

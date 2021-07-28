@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BookingCountriesStep2" customModule="xeviet" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="n3P-el-hws" id="ocN-re-3RY"/>
+                <outlet property="height_tb" destination="fWJ-fZ-qlL" id="tod-Dg-64c"/>
+                <outlet property="tableView" destination="CZ7-go-Q00" id="lGa-XB-lRk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="143"/>
+        </view>
+        <view contentMode="scaleToFill" id="n3P-el-hws">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_booking_step2" translatesAutoresizingMaskIntoConstraints="NO" id="xWV-6Y-Er3">
+                    <rect key="frame" x="12" y="12" width="390" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="9YV-6q-Pel"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bước 2: Chọn tuyến đường bạn muốn đi" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQ7-08-ee8">
+                    <rect key="frame" x="20" y="88" width="374" height="55"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CZ7-go-Q00">
+                    <rect key="frame" x="26" y="167" width="362" height="619"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="619" id="fWJ-fZ-qlL"/>
+                    </constraints>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="CZ7-go-Q00" secondAttribute="bottom" constant="20" id="6yw-Qj-hTn"/>
+                <constraint firstAttribute="trailing" secondItem="QQ7-08-ee8" secondAttribute="trailing" constant="20" id="9Dz-9w-gpc"/>
+                <constraint firstAttribute="trailing" secondItem="CZ7-go-Q00" secondAttribute="trailing" constant="26" id="Ctr-yU-FeR"/>
+                <constraint firstItem="CZ7-go-Q00" firstAttribute="top" secondItem="QQ7-08-ee8" secondAttribute="bottom" constant="24" id="PaE-0q-oKc"/>
+                <constraint firstAttribute="trailing" secondItem="xWV-6Y-Er3" secondAttribute="trailing" constant="12" id="QFP-kz-keu"/>
+                <constraint firstItem="QQ7-08-ee8" firstAttribute="top" secondItem="xWV-6Y-Er3" secondAttribute="bottom" constant="35" id="TnM-UM-XIE"/>
+                <constraint firstItem="xWV-6Y-Er3" firstAttribute="top" secondItem="n3P-el-hws" secondAttribute="top" constant="12" id="gBN-KJ-0xC"/>
+                <constraint firstItem="CZ7-go-Q00" firstAttribute="leading" secondItem="n3P-el-hws" secondAttribute="leading" constant="26" id="rFY-C9-N9K"/>
+                <constraint firstItem="QQ7-08-ee8" firstAttribute="leading" secondItem="n3P-el-hws" secondAttribute="leading" constant="20" id="ufo-8Q-FRl"/>
+                <constraint firstItem="xWV-6Y-Er3" firstAttribute="leading" secondItem="n3P-el-hws" secondAttribute="leading" constant="12" id="vw4-Ok-w2e"/>
+            </constraints>
+            <point key="canvasLocation" x="44.927536231884062" y="-494.19642857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_booking_step2" width="295" height="41"/>
+    </resources>
+</document>

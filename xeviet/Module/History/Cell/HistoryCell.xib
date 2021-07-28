@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="308" id="KGk-i7-Jjw" customClass="HistoryCell" customModule="Xe_Việt" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="308"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="308"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ec4-k6-Gbm" customClass="PView" customModule="Xe_Việt" customModuleProvider="target">
+                        <rect key="frame" x="10" y="10" width="300" height="288"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3j6-DZ-vPU">
+                                <rect key="frame" x="16" y="16" width="268" height="256"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="19P-hv-lEi" userLabel="Stack View- name">
+                                        <rect key="frame" x="0.0" y="0.0" width="268" height="85.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Xuất phát: Hà Nội" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZ2-ir-JAJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="268" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" systemColor="systemRedColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="4vy-H4-iou" userLabel="Stack View- name">
+                                        <rect key="frame" x="0.0" y="95.5" width="268" height="24"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Đến: Quảng Ninh" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRW-N2-lVD">
+                                                <rect key="frame" x="0.0" y="0.0" width="268" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.074509803920000006" green="0.32549019610000002" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="pbl-LR-isz">
+                                        <rect key="frame" x="0.0" y="129.5" width="268" height="18"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Ngày: 17/05/2020" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIZ-Kp-B2S" userLabel="Áp dụng cho quận nội thành.">
+                                                <rect key="frame" x="0.0" y="0.0" width="268" height="18"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6To-yi-nI6">
+                                        <rect key="frame" x="0.0" y="157.5" width="268" height="18"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Giờ: 20:00" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCh-pU-xBl" userLabel="Áp dụng cho quận nội thành.">
+                                                <rect key="frame" x="0.0" y="0.0" width="268" height="18"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                                <color key="textColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="TMf-Wg-bT8">
+                                        <rect key="frame" x="0.0" y="185.5" width="268" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Tổng: 150.000 VNĐ" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bd6-b0-p9i" userLabel="Áp dụng cho quận nội thành.">
+                                                <rect key="frame" x="0.0" y="0.0" width="268" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <color key="textColor" systemColor="systemYellowColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GJL-vB-RYS" userLabel="Stack View- button">
+                                        <rect key="frame" x="0.0" y="216" width="268" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXy-C1-11w" customClass="PButton" customModule="Xe_Việt" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="268" height="40"/>
+                                                <color key="backgroundColor" red="0.074509803920000006" green="0.32549019610000002" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Đặt lại">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="on_booking:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6dN-Mk-naj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="niS-L0-34l"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3j6-DZ-vPU" firstAttribute="top" secondItem="Ec4-k6-Gbm" secondAttribute="top" constant="16" id="GMY-o8-pBI"/>
+                            <constraint firstAttribute="bottom" secondItem="3j6-DZ-vPU" secondAttribute="bottom" constant="16" id="Ic1-An-dHY"/>
+                            <constraint firstAttribute="trailing" secondItem="3j6-DZ-vPU" secondAttribute="trailing" constant="16" id="Qwh-jy-nqd"/>
+                            <constraint firstItem="3j6-DZ-vPU" firstAttribute="leading" secondItem="Ec4-k6-Gbm" secondAttribute="leading" constant="16" id="c7j-Wi-t3X"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.45882352939999999" green="0.83529411760000005" blue="0.58431372550000005" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="Ec4-k6-Gbm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="5us-Uv-WgV"/>
+                    <constraint firstAttribute="bottom" secondItem="Ec4-k6-Gbm" secondAttribute="bottom" constant="10" id="MF1-DH-Q7l"/>
+                    <constraint firstItem="Ec4-k6-Gbm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="OZ4-xN-mUc"/>
+                    <constraint firstAttribute="trailing" secondItem="Ec4-k6-Gbm" secondAttribute="trailing" constant="10" id="V0m-SN-HKI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.45882352939999999" green="0.83529411760000005" blue="0.58431372550000005" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="lb_begin_place" destination="QZ2-ir-JAJ" id="X8h-8w-Bba"/>
+                <outlet property="lb_date" destination="bIZ-Kp-B2S" id="JOA-hr-67p"/>
+                <outlet property="lb_end_place" destination="MRW-N2-lVD" id="FVd-C9-Drn"/>
+                <outlet property="lb_fee" destination="bd6-b0-p9i" id="3Jk-YS-fZk"/>
+                <outlet property="lb_time" destination="MCh-pU-xBl" id="HrC-B1-Dz8"/>
+            </connections>
+            <point key="canvasLocation" x="135" y="183"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="tXy-C1-11w">
+            <size key="intrinsicContentSize" width="52" height="33"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
